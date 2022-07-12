@@ -1,12 +1,14 @@
 ### /v1/version
+`GET`
 
 > Returns json object with coreVersion and krakenVersion versions.
 
 ### /v1/healthcheck
-
+`GET`
 > Returns state of the game (health)
 
 ### /v1/utils/contentVersion/version
+`GET`
 | Param | Type | Required? |
 | ------ | ----- | ---- |
 | versionPattern | string | no |
@@ -15,6 +17,7 @@
 > Can be left empty to return all available versions
 
 ### /v1/clientVersion/check
+`POST`
 | Cookie | Value |
 | ------ | ----- |
 | bhvrSession | session |
