@@ -17,3 +17,12 @@
 | bhvrSession | session |
 
 > Cancels queue
+
+### /v1/queue/token/issue
+`POST`
+| Cookie | Value |
+| ------ | ----- |
+| bhvrSession | session |
+
+> Generates token for a match  
+> Executed when [/v1/queue](./queue.md#v1queue) returns "MATCHED" status

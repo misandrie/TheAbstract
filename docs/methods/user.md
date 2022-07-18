@@ -84,7 +84,6 @@ ___
 | ------ | ----- |
 | bhvrSession | session |
 
-
 > Retrieves whether or not the player is banned, boolean
 
 ### /v1/players/ban/decayAndGetDisconnectionPenaltyPoints
@@ -153,3 +152,11 @@ ___
 | bhvrSession | session |
 
 > Retrieves player's pips, next rank reset date and seasonRefresh boolean
+
+### /v1/extensions/playerLevels/getPlayerLevel
+`POST`
+| Cookie | Value |
+| ------ | ----- |
+| bhvrSession | session |
+
+> Retrieves player's total xp, level, prestige, current xp and xp needed for next level
