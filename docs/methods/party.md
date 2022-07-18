@@ -1,4 +1,4 @@
-# Lobby
+## Party
 
 ### /v1/realTimeMessaging/getUrl
 `GET`
@@ -28,22 +28,9 @@
 
 > Creates a party
 
-## Queue
-
-### /v1/queue
-`POST`
+### /v1/party/player/{ID}/state
 | Cookie | Value |
 | ------ | ----- |
 | bhvrSession | session |
 
-> Queues you for the game
-> Can be called multiple times to update queue position
-> Requires passing the EAC challenge check
-
-### /v1/queue/cancel
-`POST`
-| Cookie | Value |
-| ------ | ----- |
-| bhvrSession | session |
-
-> Cancels queue
+> Updates player state, accepts a json form
