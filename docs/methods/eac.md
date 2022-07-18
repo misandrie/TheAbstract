@@ -18,5 +18,5 @@
 | --------- | ----- |
 | challengeResponse | challenge response |
 
-> Validates response to EAC challenge
+> Validates response to EAC challenge  
 > Updates bhvrSession to be able to queue

@@ -13,7 +13,7 @@
 | ------ | ----- | ---- |
 | versionPattern | string | no |
 
-> Returns available versions for specified game version, e.g. 6.1.0
+> Returns available versions for specified game version, e.g. 6.1.0  
 > Can be left empty to return all available versions
 
 ### /v1/clientVersion/check
