@@ -1,5 +1,3 @@
-## Party
-
 ### /v1/realTimeMessaging/getUrl
 `GET`
 | Cookie | Value |

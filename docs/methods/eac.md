@@ -1,4 +1,4 @@
-*These methods are for EAC challenges, which allow you to execute [queue methods](./lobby.md#queue)*
+*These methods are for EAC challenges, which allow you to execute [queue methods](./queue.md)*
 
 ### /v1/extensions/eac/generateChallenge
 `POST`
