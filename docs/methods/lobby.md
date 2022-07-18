@@ -38,6 +38,7 @@
 
 > Queues you for the game
 > Can be called multiple times to update queue position
+> Requires passing the EAC challenge check
 
 ### /v1/queue/cancel
 `POST`
